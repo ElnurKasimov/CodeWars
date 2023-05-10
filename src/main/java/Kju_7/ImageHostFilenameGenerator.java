@@ -42,13 +42,13 @@ public class ImageHostFilenameGenerator {
         photoManager.setNames(names);
     }
 
-    private static class PhotoManager {
+    public static class PhotoManager {
         private Set<String> names = new HashSet<>();
 
-        private void setNames(Set<String> names) {
+        public void setNames(Set<String> names) {
             this.names = names;
         }
-        private Set<String> getNames() {
+        public Set<String> getNames() {
             return this.names;
         }
     }
