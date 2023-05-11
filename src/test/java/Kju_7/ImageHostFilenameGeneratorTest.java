@@ -30,6 +30,15 @@ class ImageHostFilenameGeneratorTest {
         assertTrue(photoManager.getNames().stream().allMatch(n -> n.length() == 6));
     }
 
+    @Test
+    public void testThatGenerateNameCreateNamesWithLengthSixCharacter() {
+        //given when
+//        photoManager = new ImageHostFilenameGenerator.PhotoManager();
+//        Set<String> actual = photoManager.getNames();
+//        //then
+//        assertNotNull(actual);
+    }
+
     // this test has to be launched the last
     @Test
     public void testThatFieldOfPhotoManagerInstanceIsNotNullForNewInstance() {
@@ -39,5 +48,7 @@ class ImageHostFilenameGeneratorTest {
         //then
         assertNotNull(actual);
     }
+
+
 
 }
