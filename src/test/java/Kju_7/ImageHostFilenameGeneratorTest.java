@@ -39,6 +39,16 @@ class ImageHostFilenameGeneratorTest {
 //        assertNotNull(actual);
     }
 
+    @Test // TODO parametrized
+    public void testThatNameWasUniqueCorrectProper() {
+        //given when
+//        photoManager = new ImageHostFilenameGenerator.PhotoManager();
+//        Set<String> actual = photoManager.getNames();
+//        //then
+//        assertNotNull(actual);
+    }
+
+
     // this test has to be launched the last
     @Test
     public void testThatFieldOfPhotoManagerInstanceIsNotNullForNewInstance() {
