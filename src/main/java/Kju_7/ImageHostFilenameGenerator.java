@@ -38,6 +38,7 @@ public class ImageHostFilenameGenerator {
 
     public static void addName (String name, PhotoManager photoManager) {
         Set<String> names = photoManager.getNames();
+        //TODO verifying that name was unique
         names.add(name);
         photoManager.setNames(names);
     }

@@ -40,7 +40,16 @@ class ImageHostFilenameGeneratorTest {
     }
 
     @Test // TODO parametrized
-    public void testThatNameWasUniqueCorrectProper() {
+    public void testThatNameWasUniqueWorkCorrect() {
+        //given when
+//        photoManager = new ImageHostFilenameGenerator.PhotoManager();
+//        Set<String> actual = photoManager.getNames();
+//        //then
+//        assertNotNull(actual);
+    }
+
+    @Test // TODO parametrized
+    public void testThatAddNameWasWorkCorrect() {
         //given when
 //        photoManager = new ImageHostFilenameGenerator.PhotoManager();
 //        Set<String> actual = photoManager.getNames();
