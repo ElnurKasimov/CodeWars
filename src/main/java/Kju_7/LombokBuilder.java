@@ -26,5 +26,12 @@ package Kju_7;
 //
 //        Note: If you don't use Lombok for this Kata ensure proper naming conventions are followed.
 
+
+
 public class LombokBuilder {
+
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+
 }
