@@ -30,6 +30,17 @@ package Kju_7;
 
 public class LombokBuilder {
 
+    public class People{
+    public int age;
+    public String name;
+    public String lastName;
+    String GREET="hello";
+
+    public String greet(){
+        return GREET+" my name is "+name;
+    }
+}
+
     public static void main(String[] args) {
         System.out.println("Hello, world!");
         System.out.println("You have to deal with payyern Builder.");
