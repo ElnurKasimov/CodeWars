@@ -30,7 +30,7 @@ package Kju_7;
 
 public class LombokBuilder {
 
-    public class People{
+    public static class People{
     public int age;
     public String name;
     public String lastName;
@@ -42,8 +42,9 @@ public class LombokBuilder {
 }
 
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
-        System.out.println("You have to deal with payyern Builder.");
+        People people1 = new People();
+        System.out.println(people1.greet());
+        System.out.println("You have to deal with pattern Builder.");
     }
 
 }
