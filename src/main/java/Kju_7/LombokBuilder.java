@@ -53,7 +53,7 @@ public class LombokBuilder {
     public static void main(String[] args) {
         People people1 = new People();
         System.out.println(people1.greet());
-        System.out.println("You have to deal with pattern Builder.");
+
     }
 
 }
