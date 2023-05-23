@@ -13,6 +13,6 @@ public class SortArrayForOddValueOnly {
         for (int i = 0, j =0; i < input.length ; i++) {
             if(input[i] % 2 != 0) input[i] = sortedOdd[j++];
         }
-        System.out.println("input = " + Arrays.toString(input));
+        System.out.println(" input  =  " + Arrays.toString(input));
     }
 }
