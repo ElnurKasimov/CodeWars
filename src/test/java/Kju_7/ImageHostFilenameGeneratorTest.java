@@ -11,7 +11,7 @@ import static Kju_7.ImageHostFilenameGenerator.generateName;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ImageHostFilenameGeneratorTest {
-    //private static ImageHostFilenameGenerator imageHostFilenameGenerator;
+    private static ImageHostFilenameGenerator imageHostFilenameGenerator;
     private static ImageHostFilenameGenerator.PhotoManager photoManager;
 
 
