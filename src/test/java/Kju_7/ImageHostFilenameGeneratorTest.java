@@ -17,6 +17,7 @@ class ImageHostFilenameGeneratorTest {
 
     @BeforeAll
     public static void init() {
+
         photoManager = new ImageHostFilenameGenerator.PhotoManager();
         Set<String> names = photoManager.getNames();
         names.add("JHGFRD");
