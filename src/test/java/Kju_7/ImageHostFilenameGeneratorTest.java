@@ -7,10 +7,13 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 
+import static Kju_7.ImageHostFilenameGenerator.generateName;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ImageHostFilenameGeneratorTest {
+    //private static ImageHostFilenameGenerator imageHostFilenameGenerator;
     private static ImageHostFilenameGenerator.PhotoManager photoManager;
+
 
     @BeforeAll
     public static void init() {
@@ -33,10 +36,9 @@ class ImageHostFilenameGeneratorTest {
     @Test
     public void testThatGenerateNameCreateNamesWithLengthSixCharacter() {
         //given when
-//        photoManager = new ImageHostFilenameGenerator.PhotoManager();
-//        Set<String> actual = photoManager.getNames();
-//        //then
-//        assertNotNull(actual);
+        int actual = generateName(photoManager).length();
+        //then
+        assertEquals(6, actual);
     }
 
     @Test // TODO parametrized
