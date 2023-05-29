@@ -43,6 +43,7 @@ class ImageHostFilenameGeneratorTest {
 
     @Test // TODO parametrized
     public void testThatGenerateNameCreateNamesLettersOnly() {
+
         //given when
 //        photoManager = new ImageHostFilenameGenerator.PhotoManager();
 //        Set<String> actual = photoManager.getNames();
