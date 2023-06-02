@@ -14,7 +14,6 @@ import java.util.Map;
 
 public class Backronym {
     private static final Map<String, String> dictionary = Preload.dictionary;
-
     public static String makeBackronym(String acronym) {
         if (acronym.equals("")) {return "";}
         StringBuilder result = new StringBuilder();
